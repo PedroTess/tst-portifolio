@@ -1,0 +1,1251 @@
+@media screen and (max-width: 700px){
+    .menu-desktop {
+        display: none;
+    }
+    .btn-contato {
+        display: none;
+    }
+
+    header .btn-menu-mob {
+        margin-right: 10px;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 391px){
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    
+    .interface {
+        max-width: 370px;
+        margin: 0 auto;
+    }
+
+    /* =====================================================================*/
+    /* ============================== HEADER ============================== */
+    /* =====================================================================*/
+
+
+
+    /* =====================================================================*/
+    /* ============================== HERO ============================== */
+    /* =====================================================================*/
+
+    section.hero-site {
+        height: 130vh;
+        background: linear-gradient(to bottom, #000000, #232323);
+        background-size: cover;
+        text-align: center;
+    }
+    
+    .txt-hero h1 {
+        color: white;
+        font-size: 2.6rem;
+        font-family: "Kanit", sans-serif;
+        line-height: 0.6;
+        font-weight: 800;
+        font-style: normal;
+    }
+    
+    .txt-hero span {
+        background: linear-gradient(to right, #009DFF, #005E99);
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent;
+        font-size: 1.7rem;
+        font-family: "Kanit", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+    }
+    
+    .icons {
+        margin-top: 15px;
+    }
+    
+    .icons img {
+        max-width: 30px;
+        margin-right: 9px;
+    }
+    
+    .icons img:hover {
+        transform: scale(1.08);
+        transition: .2s;
+    }
+
+    /* =====================================================================*/
+    /* ============================== SOBRE MIM ============================== */
+    /* =====================================================================*/
+
+    .itens-sobre-mim {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobre-mim-site {
+        margin-bottom: 160px;
+    }
+    
+    .img-sm img {
+        height: 300px;
+        border-radius: 20px;
+    }
+    
+    .itens-sobre-mim .txt-sm {
+        flex-direction: column;
+        text-align: center;
+        width: 360px;
+    }
+    
+    .itens-sobre-mim .txt-sm h1 {
+        color: #ffffff;
+        font-family: "Kanit", sans-serif;
+        font-size: 2rem;
+        line-height: 1;
+    }
+    
+    .itens-sobre-mim .txt-sm span {
+        color: #009DFF;
+    }
+    
+    .itens-sobre-mim .txt-sm p {
+        color: #ffffff;
+        font-family: "Quicksand", sans-serif;
+        font-size: 1.45rem;
+        width: 360px;
+    }
+    
+    .itens-sobre-mim .btn-sm button {
+        width: 250px;
+        height: 40px;
+        font-size: 20px;
+        background-color: transparent;
+        border: 1px solid #ffffff;
+        color: #ffffff;
+        font-family: "Quicksand", sans-serif;
+        cursor: pointer;
+        margin-top: 16px;
+        transition: .5s;
+    }
+    
+    .btn-sm button:hover {
+        background-color: #009DFF;
+        color: black;
+        border: 1px solid #009DFF;
+    }
+    
+    /* =====================================================================*/
+    /* ============================== HABILIDADES ============================== */
+    /* =====================================================================*/    
+
+    .itens-hb {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .itens-hb .txt-hb h1 {
+        color: #009DFF;
+        font-family: "Kanit", sans-serif;
+        font-size: 2.3rem;
+        margin-bottom: 20px;
+    }
+    
+    .itens-hb .txt-hb p {
+        color: #ffffff;
+        font-family: "Quicksand", sans-serif;
+        font-size: 1.4rem;
+    }
+    
+    .itens-hb .img-hb {
+        width: 200px;
+    }
+    
+    .itens-hb .img-hb img {
+        width: 56px;
+        margin: 4px;
+    }
+    
+    .img-hb img:hover {
+        transform: scale(1.05);
+        transition: .4s;
+    }
+
+    /* =====================================================================*/
+    /* ============================== PROJETOS ============================== */
+    /* =====================================================================*/
+
+    #titulo-projetos h1 {
+        color: #009DFF;
+        font-family: "Kanit", sans-serif;
+        font-size: 2.2rem;
+        margin-top: 30px;
+    }
+    
+    .itens-projetos {
+        flex-direction: column;
+    }
+    
+    .img-projetos img {
+       width: 400px;
+       border-radius: 8px;
+    }
+    
+    .txt-projetos {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: start;
+    }
+
+    .txt-projetos h2 {
+        color: #ffffff;
+        font-family: "Agdasima", sans-serif;
+        font-size: 1.9rem;
+    }
+    
+    .txt-projetos h3 {
+        color: #009DFF;
+        font-family: "Agdasima", sans-serif;
+        font-size: 1.6rem;
+    }
+    
+    .txt-projetos p {
+        color: #ffffff;
+        font-family: "Agdasima", sans-serif;
+        font-size: 1.3rem;
+        margin-bottom: 15px;
+    }
+    
+    .btn-projetos {
+        width: 150px;
+        height: 50px;
+        font-size: 24px;
+        background-color: #009DFF;
+        border: 1px solid #009DFF;
+        border-radius: 5px;
+        color: #ffffff;
+        font-family: "Agdasima", sans-serif;
+        cursor: pointer;
+        margin-top: 10px;
+        transition: .5s;
+    }
+    
+    .btn-projetos:hover {
+        transform: scale(1.05);
+        transition: .4s;
+    }
+    
+
+    .item-1 {
+        order: 1;
+    }
+
+    .item-2 {
+        order: 0;
+    }
+    
+    #btn-orcamento {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #btn-orcamento a button {
+        width: 300px;
+        height: 40px;
+        font-size: 18px;
+        background-color: #009DFF;
+        color: #ffffff;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-family: "Quicksand", sans-serif;
+        animation: pulse 2s infinite; 
+        z-index: 1;
+    }
+    
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+            box-shadow: 0 0 5px rgba(0, 157, 255, 0.5);
+        }
+        50% {
+            transform: scale(1.1);
+            box-shadow: 0 0 10px rgba(0, 157, 255, 0.7);
+        }
+        100% {
+            transform: scale(1);
+            box-shadow: 0 0 5px rgba(0, 157, 255, 0.5);
+        }
+    }
+
+    /* =====================================================================*/
+    /* ============================== CONTATO ============================== */
+    /* =====================================================================*/
+
+    .contato {
+        background-color: #000000;
+        padding: 40px 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .itens-contato {
+        display: flex;
+        gap: 20px;
+        max-width: 370px;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .txt-contato {
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 500px;
+    }
+    
+    .txt-contato h1 {
+        font-family: "Quicksand", sans-serif;
+        font-size: 1.6rem;
+        line-height: 1.2;
+    }
+    
+    .txt-contato p {
+        font-family: "Quicksand", sans-serif;
+        color: #8b8b8b;
+        font-size: 1.3rem;
+    }
+    
+    .form-contato {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: "Kanit", sans-serif;
+        color: #ffffff;
+        margin-top: 25px;
+    }
+
+    .form-contato h1 {
+        font-size: 1.7rem;
+    }
+    
+    .form {
+        max-width: 370px;
+    }
+    
+    .form label, .form input, .form textarea, .form button {
+        display: block;
+        width: 100%;
+    }
+    
+    .form label {
+        color: #ffffff;
+        line-height: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .form input, .form textarea {
+        font: inherit;
+        padding: 0.4rem;
+        margin-bottom: 1rem;
+        border: 1px solid transparent;
+        border-radius: 8px;
+        transition: 0.2s;
+    }
+    
+    .form textarea {
+        min-height: 7rem;
+        resize: vertical;
+    }
+    
+    .form input:hover, .form input:focus, .form textarea:hover, .form textarea:focus {
+        outline: none;
+        border-color: #009DFF;
+        box-shadow: 0 0 0 3px #1ba8ff;
+    }
+    
+    .form button {
+        width: 370px;
+        height: 35px;
+        font-size: 20px;
+        background-color: #009DFF;
+        border: 1px solid #009DFF;
+        border-radius: 5px;
+        color: #ffffff;
+        font-family: "Kanit", sans-serif;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    
+    .icons-ctt {
+        align-items: center;
+        gap: 5px;
+        margin-top: 5px;
+    }
+    
+    .icons-ctt img {
+        height: 20px;
+    }
+    
+    .info-ctt {
+        margin: 10 0 0 0;
+    }
+    
+    /* =====================================================================*/
+    /* ============================== RODAPÉ ============================== */
+    /* =====================================================================*/
+
+    footer {
+        background-color: #000000;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    footer p {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 0.05;
+        color: #4d4d4d;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    footer span {
+        color: #009DFF;
+    }
+    
+    #direitos {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 361px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    
+    .interface {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    /* =====================================================================*/
+    /* ============================== HEADER ============================== */
+    /* =====================================================================*/
+    header {
+        padding: 7px;
+    }
+
+    /* =====================================================================*/
+    /* ============================== HERO ============================== */
+    /* =====================================================================*/
+
+    section.hero-site {
+        height: 120vh;
+        background: linear-gradient(to bottom, #000000, #232323);
+        background-size: cover;
+        text-align: center;
+    }
+    
+    .txt-hero h1 {
+        color: white;
+        font-size: 2.2rem;
+        font-family: "Kanit", sans-serif;
+        line-height: 0.6;
+        font-weight: 800;
+        font-style: normal;
+    }
+    
+    .txt-hero span {
+        background: linear-gradient(to right, #009DFF, #005E99);
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent;
+        font-size: 1.4rem;
+        font-family: "Kanit", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+    }
+    
+    .icons {
+        margin-top: 15px;
+    }
+    
+    .icons img {
+        max-width: 25px;
+        margin-right: 9px;
+    }
+    
+    .icons img:hover {
+        transform: scale(1.08);
+        transition: .2s;
+    }
+
+    /* =====================================================================*/
+    /* ============================== SOBRE MIM ============================== */
+    /* =====================================================================*/
+
+    .itens-sobre-mim {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobre-mim-site {
+        margin-bottom: 160px;
+    }
+    
+    .img-sm img {
+        height: 300px;
+        border-radius: 20px;
+    }
+    
+    .txt-sm {
+        flex-direction: column;
+        text-align: center;
+        width: 340px;
+    }
+    
+    .txt-sm h1 {
+        color: #ffffff;
+        font-family: "Kanit", sans-serif;
+        font-size: 2rem;
+        line-height: 1;
+    }
+    
+    .txt-sm span {
+        color: #009DFF;
+    }
+    
+    .txt-sm p {
+        color: #ffffff;
+        font-family: "Quicksand", sans-serif;
+        font-size: 1.35rem;
+        width: 340px;
+    }
+    
+    .btn-sm button {
+        width: 250px;
+        height: 40px;
+        font-size: 20px;
+        background-color: transparent;
+        border: 1px solid #ffffff;
+        color: #ffffff;
+        font-family: "Quicksand", sans-serif;
+        cursor: pointer;
+        margin-top: 16px;
+        transition: .5s;
+    }
+    
+    .btn-sm button:hover {
+        background-color: #009DFF;
+        color: black;
+        border: 1px solid #009DFF;
+    }
+    
+    /* =====================================================================*/
+    /* ============================== HABILIDADES ============================== */
+    /* =====================================================================*/    
+
+    .itens-hb {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .txt-hb h1 {
+        color: #009DFF;
+        font-family: "Kanit", sans-serif;
+        font-size: 2.3rem;
+        margin-bottom: 20px;
+    }
+    
+    .txt-hb p {
+        color: #ffffff;
+        font-family: "Quicksand", sans-serif;
+        font-size: 1.4rem;
+    }
+    
+    .img-hb {
+        width: 200px;
+    }
+    
+    .img-hb img {
+        width: 56px;
+        margin: 4px;
+    }
+    
+    .img-hb img:hover {
+        transform: scale(1.05);
+        transition: .4s;
+    }
+
+    /* =====================================================================*/
+    /* ============================== PROJETOS ============================== */
+    /* =====================================================================*/
+
+    #titulo-projetos h1 {
+        color: #009DFF;
+        font-family: "Kanit", sans-serif;
+        font-size: 2.2rem;
+        margin-top: 30px;
+    }
+    
+    .itens-projetos {
+        flex-direction: column;
+    }
+    
+    .img-projetos img {
+       width: 400px;
+       border-radius: 8px;
+    }
+    
+    .txt-projetos {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: start;
+    }
+
+    .txt-projetos h2 {
+        color: #ffffff;
+        font-family: "Agdasima", sans-serif;
+        font-size: 1.9rem;
+    }
+    
+    .txt-projetos h3 {
+        color: #009DFF;
+        font-family: "Agdasima", sans-serif;
+        font-size: 1.6rem;
+    }
+    
+    .txt-projetos p {
+        color: #ffffff;
+        font-family: "Agdasima", sans-serif;
+        font-size: 1.3rem;
+        margin-bottom: 15px;
+    }
+    
+    .btn-projetos {
+        width: 150px;
+        height: 50px;
+        font-size: 24px;
+        background-color: #009DFF;
+        border: 1px solid #009DFF;
+        border-radius: 5px;
+        color: #ffffff;
+        font-family: "Agdasima", sans-serif;
+        cursor: pointer;
+        margin-top: 10px;
+        transition: .5s;
+    }
+    
+    .btn-projetos:hover {
+        transform: scale(1.05);
+        transition: .4s;
+    }
+    
+
+    .item-1 {
+        order: 1;
+    }
+
+    .item-2 {
+        order: 0;
+    }
+    
+    #btn-orcamento {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #btn-orcamento a button {
+        width: 250px;
+        height: 40px;
+        font-size: 16px;
+        background-color: #009DFF;
+        color: #ffffff;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-family: "Quicksand", sans-serif;
+        animation: pulse 2s infinite; 
+        z-index: 1;
+    }
+    
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+            box-shadow: 0 0 5px rgba(0, 157, 255, 0.5);
+        }
+        50% {
+            transform: scale(1.1);
+            box-shadow: 0 0 10px rgba(0, 157, 255, 0.7);
+        }
+        100% {
+            transform: scale(1);
+            box-shadow: 0 0 5px rgba(0, 157, 255, 0.5);
+        }
+    }
+
+    /* =====================================================================*/
+    /* ============================== CONTATO ============================== */
+    /* =====================================================================*/
+
+    .contato {
+        background-color: #000000;
+        padding: 40px 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .itens-contato {
+        display: flex;
+        gap: 20px;
+        max-width: 350px;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .txt-contato {
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 500px;
+    }
+    
+    .txt-contato h1 {
+        font-family: "Quicksand", sans-serif;
+        font-size: 1.6rem;
+        line-height: 1.2;
+    }
+    
+    .txt-contato p {
+        font-family: "Quicksand", sans-serif;
+        color: #8b8b8b;
+        font-size: 1.3rem;
+    }
+    
+    .form-contato {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: "Kanit", sans-serif;
+        color: #ffffff;
+        margin-top: 25px;
+    }
+
+    .form-contato h1 {
+        font-size: 1.7rem;
+    }
+    
+    .form {
+        max-width: 350px;
+    }
+    
+    .form label, .form input, .form textarea, .form button {
+        display: block;
+        width: 100%;
+    }
+    
+    .form label {
+        color: #ffffff;
+        line-height: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .form input, .form textarea {
+        font: inherit;
+        padding: 0.4rem;
+        margin-bottom: 1rem;
+        border: 1px solid transparent;
+        border-radius: 8px;
+        transition: 0.2s;
+    }
+    
+    .form textarea {
+        min-height: 7rem;
+        resize: vertical;
+    }
+    
+    .form input:hover, .form input:focus, .form textarea:hover, .form textarea:focus {
+        outline: none;
+        border-color: #009DFF;
+        box-shadow: 0 0 0 3px #1ba8ff;
+    }
+    
+    .form button {
+        width: 350px;
+        height: 35px;
+        font-size: 20px;
+        background-color: #009DFF;
+        border: 1px solid #009DFF;
+        border-radius: 5px;
+        color: #ffffff;
+        font-family: "Kanit", sans-serif;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    
+    .icons-ctt {
+        align-items: center;
+        gap: 5px;
+        margin-top: 5px;
+    }
+    
+    .icons-ctt img {
+        height: 20px;
+    }
+    
+    .info-ctt {
+        margin: 10 0 0 0;
+    }
+    
+    /* =====================================================================*/
+    /* ============================== RODAPÉ ============================== */
+    /* =====================================================================*/
+
+    footer {
+        background-color: #000000;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    footer p {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 0.05;
+        color: #4d4d4d;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    footer span {
+        color: #009DFF;
+    }
+    
+    #direitos {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 413px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    
+    .interface {
+        max-width: 390px;
+        margin: 0 auto;
+    }
+
+    /* =====================================================================*/
+    /* ============================== HEADER ============================== */
+    /* =====================================================================*/
+    header {
+        padding: 7px;
+    }
+
+    /* =====================================================================*/
+    /* ============================== HERO ============================== */
+    /* =====================================================================*/
+
+    section.hero-site {
+        height: 120vh;
+        background: linear-gradient(to bottom, #000000, #232323);
+        background-size: cover;
+        text-align: center;
+    }
+    
+    .txt-hero h1 {
+        color: white;
+        font-size: 2.4rem;
+        font-family: "Kanit", sans-serif;
+        line-height: 0.6;
+        font-weight: 800;
+        font-style: normal;
+    }
+    
+    .txt-hero span {
+        background: linear-gradient(to right, #009DFF, #005E99);
+        -webkit-background-clip: text; 
+        -webkit-text-fill-color: transparent;
+        font-size: 1.6rem;
+        font-family: "Kanit", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+    }
+    
+    .icons {
+        margin-top: 15px;
+    }
+    
+    .icons img {
+        max-width: 30px;
+        margin-right: 9px;
+    }
+    
+    .icons img:hover {
+        transform: scale(1.08);
+        transition: .2s;
+    }
+
+    /* =====================================================================*/
+    /* ============================== SOBRE MIM ============================== */
+    /* =====================================================================*/
+
+    .itens-sobre-mim {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sobre-mim-site {
+        margin-bottom: 160px;
+    }
+    
+    .img-sm img {
+        height: 300px;
+        border-radius: 20px;
+    }
+    
+    .txt-sm {
+        flex-direction: column;
+        text-align: center;
+        width: 380px;
+    }
+    
+    .txt-sm h1 {
+        color: #ffffff;
+        font-family: "Kanit", sans-serif;
+        font-size: 2rem;
+        line-height: 1;
+    }
+    
+    .txt-sm span {
+        color: #009DFF;
+    }
+    
+    .txt-sm p {
+        color: #ffffff;
+        font-family: "Quicksand", sans-serif;
+        font-size: 1.35rem;
+        width: 380px;
+    }
+    
+    .btn-sm button {
+        width: 250px;
+        height: 40px;
+        font-size: 20px;
+        background-color: transparent;
+        border: 1px solid #ffffff;
+        color: #ffffff;
+        font-family: "Quicksand", sans-serif;
+        cursor: pointer;
+        margin-top: 16px;
+        transition: .5s;
+    }
+    
+    .btn-sm button:hover {
+        background-color: #009DFF;
+        color: black;
+        border: 1px solid #009DFF;
+    }
+    
+    /* =====================================================================*/
+    /* ============================== HABILIDADES ============================== */
+    /* =====================================================================*/    
+
+    .itens-hb {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .itens-hb .txt-hb h1 {
+        color: #009DFF;
+        font-family: "Kanit", sans-serif;
+        font-size: 2.3rem;
+        margin-bottom: 20px;
+    }
+    
+    .itens-hb .txt-hb p {
+        color: #ffffff;
+        font-family: "Quicksand", sans-serif;
+        font-size: 1.4rem;
+    }
+    
+    .itens-hb .img-hb {
+        width: 200px;
+    }
+    
+    .itens-hb .img-hb img {
+        width: 56px;
+        margin: 4px;
+    }
+    
+    .img-hb img:hover {
+        transform: scale(1.05);
+        transition: .4s;
+    }
+
+    /* =====================================================================*/
+    /* ============================== PROJETOS ============================== */
+    /* =====================================================================*/
+
+    #titulo-projetos h1 {
+        color: #009DFF;
+        font-family: "Kanit", sans-serif;
+        font-size: 2.2rem;
+        margin-top: 30px;
+    }
+    
+    .itens-projetos {
+        flex-direction: column;
+    }
+    
+    .img-projetos img {
+       width: 400px;
+       border-radius: 8px;
+    }
+    
+    .txt-projetos {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: start;
+    }
+
+    .txt-projetos h2 {
+        color: #ffffff;
+        font-family: "Agdasima", sans-serif;
+        font-size: 1.9rem;
+    }
+    
+    .txt-projetos h3 {
+        color: #009DFF;
+        font-family: "Agdasima", sans-serif;
+        font-size: 1.6rem;
+    }
+    
+    .txt-projetos p {
+        color: #ffffff;
+        font-family: "Agdasima", sans-serif;
+        font-size: 1.3rem;
+        margin-bottom: 15px;
+    }
+    
+    .btn-projetos {
+        width: 150px;
+        height: 50px;
+        font-size: 24px;
+        background-color: #009DFF;
+        border: 1px solid #009DFF;
+        border-radius: 5px;
+        color: #ffffff;
+        font-family: "Agdasima", sans-serif;
+        cursor: pointer;
+        margin-top: 10px;
+        transition: .5s;
+    }
+    
+    .btn-projetos:hover {
+        transform: scale(1.05);
+        transition: .4s;
+    }
+    
+
+    .item-1 {
+        order: 1;
+    }
+
+    .item-2 {
+        order: 0;
+    }
+    
+    #btn-orcamento {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #btn-orcamento a button {
+        width: 250px;
+        height: 40px;
+        font-size: 16px;
+        background-color: #009DFF;
+        color: #ffffff;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-family: "Quicksand", sans-serif;
+        animation: pulse 2s infinite; 
+        z-index: 1;
+    }
+    
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+            box-shadow: 0 0 5px rgba(0, 157, 255, 0.5);
+        }
+        50% {
+            transform: scale(1.1);
+            box-shadow: 0 0 10px rgba(0, 157, 255, 0.7);
+        }
+        100% {
+            transform: scale(1);
+            box-shadow: 0 0 5px rgba(0, 157, 255, 0.5);
+        }
+    }
+
+    /* =====================================================================*/
+    /* ============================== CONTATO ============================== */
+    /* =====================================================================*/
+
+    .contato {
+        background-color: #000000;
+        padding: 40px 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .itens-contato {
+        display: flex;
+        gap: 20px;
+        max-width: 380px;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .txt-contato {
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 500px;
+    }
+    
+    .txt-contato h1 {
+        font-family: "Quicksand", sans-serif;
+        font-size: 1.6rem;
+        line-height: 1.2;
+    }
+    
+    .txt-contato p {
+        font-family: "Quicksand", sans-serif;
+        color: #8b8b8b;
+        font-size: 1.3rem;
+    }
+    
+    .form-contato {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: "Kanit", sans-serif;
+        color: #ffffff;
+        margin-top: 25px;
+    }
+
+    .form-contato h1 {
+        font-size: 1.7rem;
+    }
+    
+    .form {
+        max-width: 380px;
+    }
+    
+    .form label, .form input, .form textarea, .form button {
+        display: block;
+        width: 100%;
+    }
+    
+    .form label {
+        color: #ffffff;
+        line-height: 1rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .form input, .form textarea {
+        font: inherit;
+        padding: 0.4rem;
+        margin-bottom: 1rem;
+        border: 1px solid transparent;
+        border-radius: 8px;
+        transition: 0.2s;
+    }
+    
+    .form textarea {
+        min-height: 7rem;
+        resize: vertical;
+    }
+    
+    .form input:hover, .form input:focus, .form textarea:hover, .form textarea:focus {
+        outline: none;
+        border-color: #009DFF;
+        box-shadow: 0 0 0 3px #1ba8ff;
+    }
+    
+    .form button {
+        width: 380px;
+        height: 35px;
+        font-size: 20px;
+        background-color: #009DFF;
+        border: 1px solid #009DFF;
+        border-radius: 5px;
+        color: #ffffff;
+        font-family: "Kanit", sans-serif;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    
+    .icons-ctt {
+        align-items: center;
+        gap: 5px;
+        margin-top: 5px;
+    }
+    
+    .icons-ctt img {
+        height: 20px;
+    }
+    
+    .info-ctt {
+        margin: 10 0 0 0;
+    }
+    
+    /* =====================================================================*/
+    /* ============================== RODAPÉ ============================== */
+    /* =====================================================================*/
+
+    footer {
+        background-color: #000000;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    footer p {
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 0.05;
+        color: #4d4d4d;
+        font-size: 18px;
+        text-align: center;
+    }
+    
+    footer span {
+        color: #009DFF;
+    }
+    
+    #direitos {
+        padding: 30px;
+    }
+}
