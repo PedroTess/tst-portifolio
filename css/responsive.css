@@ -11,9 +11,6 @@
         display: block;
     }
     
-    body {
-        overflow-x: hidden; /* Impede o scroll horizontal */
-    }
 }
 
 @media screen and (max-width: 900px) {
